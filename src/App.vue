@@ -22,6 +22,10 @@
   color: black;
 }
 
+body {
+  margin: 0 !important; 
+}
+
 #websiteLogo {
   width: 200px;
   position: absolute;

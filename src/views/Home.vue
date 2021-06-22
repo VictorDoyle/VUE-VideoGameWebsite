@@ -1,6 +1,10 @@
 <template>
   <div class="home">
+    <!-- top section banner -->
     <mainPageBanner />
+    <!-- main content mid -->
+
+    <!-- footer section -->
     
   </div>
 </template>
