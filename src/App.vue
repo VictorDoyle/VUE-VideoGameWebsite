@@ -1,7 +1,8 @@
 <template>
   <div id="main-nav">
       <div id="left-nav">
-      <router-link to="/">Home</router-link> |
+      <img id="websiteLogo" alt="Ghost Recon Logo" src="./assets/logo.png">
+      <router-link to="/">Home</router-link> 
       <router-link to="/news">News</router-link>
       <router-link to="/game-info">Game Info</router-link>
       </div>
@@ -21,17 +22,27 @@
   color: black;
 }
 
+#websiteLogo {
+  width: 200px;
+  position: absolute;
+  left: 15px;
+  top: 5px;
+}
+
 #main-nav {
-  padding: 30px;
+  height: 70px;
   background-color: black;
 }
 
 #left-nav {
   float: left;
+  margin-left: 200px;
+  margin-top: 25px;
 }
 
 #right-nav {
   float: right;
+  margin-top: 25px;
 }
 
 #main-nav a {
@@ -42,9 +53,9 @@
 }
 
 #main-nav a.router-link-exact-active {
-  color: black;
-  width: 300px;
-  height: 300px !important;
-  background-color: burlywood;
+  /* TODO: change color and add animation */
+  color: aqua;
 }
+
+
 </style>
