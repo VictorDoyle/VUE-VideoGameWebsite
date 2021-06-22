@@ -1,30 +1,50 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="main-nav">
+      <div id="left-nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/news">News</router-link>
+      <router-link to="/game-info">Game Info</router-link>
+      </div>
+      <div id="right-nav">
+        <router-link to="/buy-now"> Buy Now </router-link>
+      </div>
   </div>
   <router-view/>
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family:'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: black;
 }
 
-#nav {
+#main-nav {
   padding: 30px;
+  background-color: black;
 }
 
-#nav a {
+#left-nav {
+  float: left;
+}
+
+#right-nav {
+  float: right;
+}
+
+#main-nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: whitesmoke;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+#main-nav a.router-link-exact-active {
+  color: black;
+  width: 300px;
+  height: 300px !important;
+  background-color: burlywood;
 }
 </style>
