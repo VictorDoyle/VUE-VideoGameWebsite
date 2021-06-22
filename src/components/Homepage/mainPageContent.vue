@@ -4,9 +4,11 @@
        <div class="mainCharactersGrid">
            <div id="leftCharacter">
                <div class="characterTextBio"> 
+            <router-link to="/game-info">
                <h2> WORLD AND STORY</h2>
                 <p>Discover the diverse open world of Auroa and the deadly Wolves that have made it their home. </p>
                 <h3> DISCOVER THE STORY </h3>
+                </router-link> 
                </div>
                <div id="leftCharImage">
                </div>
@@ -15,10 +17,12 @@
            </div>
             <div id="midCharacter">
                 <div class="characterTextBio"> 
+                <router-link to="/game-info">
                     <h2> GAMEPLAY FEATURES</h2>
                     <p>Explore the many features and abilities you'll have at your disposal. </p>
                     <br>
                     <h3> SEE THE GAME DETAILS </h3>
+                </router-link>
                </div>
                 <div id="midCharImage">
                 </div>
@@ -26,14 +30,26 @@
            </div>
             <div id="rightCharacter">
                 <div class="characterTextBio"> 
+                <router-link to="/game-info">
                     <h2> GAME MODES</h2>
                     <p>Play your way with solo, co-op, and multiplayer modes in an ever evolving world.</p>
                     <h3> LEARN ABOUT THE NEW MODES </h3>
+                </router-link>
                 </div>
                 <div id="rightCharImage">
                 </div>
 
            </div>
+       </div>
+
+       <div class="buyNowContent">
+           <h2 id="buyNowTitle"> Buy Breakpoint Now</h2>
+           <h3 id="buyNowPlatform">Available now on Xbox One, STADIA, PS4, and PC</h3>
+
+           <img id="buyNowBanner" src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3WPDq7N4O9Wg3DkkwM7SFc/cc9cd68b932736cf0a29cce6cccf4589/Ubisoft__GRB_960x540.jpg" loading="lazy">
+
+           <h2 id="buyNowOverlayText">Ubisoft Subscription Service UBISOFT+ Available Now  </h2>
+           <h3 id="buyNowOverlayTextSub">Accesss the premium edition* of Ghost Recon Breakpoint including automatic updates and a growing catalogue of 100+ PC games with Ubisoft+.</h3>
        </div>
     </div>
 </template>
@@ -158,5 +174,44 @@ export default {
     transition: all .5s ease;
 }
 
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* buy now content */
+
+.buyNowContent {
+    color: whitesmoke;
+}
+
+#buyNowTitle {
+    font-size: 40px;
+}
+
+#buyNowPlatform {
+    font-size: 30px;
+}
+
+#buyNowBanner {
+    width: 100%;
+    object-fit: cover;
+    height: 80vh;
+    object-position: 0 0;
+}
+
+#buyNowOverlayText {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10vh;
+}
+
+#buyNowOverlayTextSub {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5vh;
+}
 
 </style>
