@@ -1,6 +1,7 @@
 <template>
   <div id="homepageHeroBanner">
-  <img id="ghostReconBannerImage" alt="mainpage hero banner ghost recon" src="../../assets/mainLogoBanner.jpg">
+  <div id="ghostReconBannerImage" alt="mainpage hero banner ghost recon">
+  </div>
 
     <div class="homepageHeroButtons">
       <div id="homepageLeftButton">
@@ -45,10 +46,11 @@ export default {
 }
 #ghostReconBannerImage {
   position: relative;
-  left:0px;
+  background-image: url("https://downloads.ctfassets.net/p0f8o8d25gmk/WnvtQ97xgwmwRyhWdmJWh/783df3aea2c880d36491df964127c762/KEYART_GEXP_nologos.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   z-index: 1;
   width: 100%;
-  object-fit: cover;
   height: 80vh;
 }
 

@@ -17,6 +17,7 @@
 import mainPageBanner from '@/components/Homepage/mainPageBanner.vue'
 import mainPageContent from '@/components/Homepage/mainPageContent.vue'
 import mainPageFooter from '@/components/Homepage/mainPageFooter.vue'
+
 export default {
   name: 'Home',
   components: {

@@ -51,6 +51,9 @@
            <h2 id="buyNowOverlayText">Ubisoft Subscription Service UBISOFT+ Available Now  </h2>
            <h3 id="buyNowOverlayTextSub">Accesss the premium edition* of Ghost Recon Breakpoint including automatic updates and a growing catalogue of 100+ PC games with Ubisoft+.</h3>
        </div>
+
+       <div> 
+       </div>
     </div>
 </template>
 
