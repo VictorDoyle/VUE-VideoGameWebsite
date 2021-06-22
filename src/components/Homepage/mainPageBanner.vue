@@ -1,10 +1,10 @@
 <template>
   <div id="homepageHeroBanner">
-  <img id="ghostReconBannerImage" alt="mainpage hero banner ghost recon" src="../assets/mainLogoBanner.jpg">
+  <img id="ghostReconBannerImage" alt="mainpage hero banner ghost recon" src="../../assets/mainLogoBanner.jpg">
 
     <div class="homepageHeroButtons">
       <div id="homepageLeftButton">
-        <img id="operatorLeftImage" alt="mainpage ghost recon operator 1" src="../assets/operatorTwo.png">
+        <img id="operatorLeftImage" alt="mainpage ghost recon operator 1" src="../../assets/operatorTwo.png">
 
         <h4> 01 </h4>
         <h2> OPERATION AMBER SKY: LIVE EVENT</h2>
@@ -12,7 +12,7 @@
       </div>
 
       <div id="homepageMidButton">
-        <img id="operatorMidImage" alt="mainpage ghost recon operator 3" src="../assets/operatorOne.png">
+        <img id="operatorMidImage" alt="mainpage ghost recon operator 3" src="../../assets/operatorOne.png">
 
         <h4> 02 </h4>
         <h2> GHOST EXPERIENCE 2.0</h2>
@@ -20,7 +20,7 @@
       </div>
 
       <div id="homepageRightButton">
-        <img id="operatorRightImage" alt="mainpage ghost recon operator 3" src="../assets/operatorThree.png">
+        <img id="operatorRightImage" alt="mainpage ghost recon operator 3" src="../../assets/operatorThree.png">
 
         <h4> 03 </h4>
         <h2> UNLIMITED ACCESS TO UBISOFT</h2>

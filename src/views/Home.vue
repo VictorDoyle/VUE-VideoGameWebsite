@@ -3,8 +3,9 @@
     <!-- top section banner -->
     <mainPageBanner />
     <!-- main content mid -->
-
+    <mainPageContent />
     <!-- footer section -->
+    <mainPageCharacters/>
     
   </div>
 </template>
@@ -13,12 +14,14 @@
 
 
 
-import mainPageBanner from '@/components/mainPageBanner.vue'
+import mainPageBanner from '@/components/Homepage/mainPageBanner.vue'
+import mainPageContent from '@/components/Homepage/mainPageContent.vue'
 
 export default {
   name: 'Home',
   components: {
     mainPageBanner,
+    mainPageContent,
   }
 }
 </script>
