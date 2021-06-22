@@ -59,7 +59,7 @@ body {
 
 #main-nav a.router-link-exact-active {
   /* TODO: change color and add animation */
-  color: aqua;
+  color: #8a8c4a
 }
 
 

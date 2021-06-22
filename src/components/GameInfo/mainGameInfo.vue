@@ -1,13 +1,10 @@
 <template>
     <div id="gameInfoBanner">
         <div id="gameInfoHeroImage">
+                <h1 id="gameInfoTitle"> COMBAT TACTICS</h1>
         </div>
 
         <div class="gameInfoContent">
-            <div id="gameInfoTitle">
-                <h1> COMBAT TACTICS</h1>
-            </div>
-
             <div id="gameInfoCards">
                 <div id="gameInfoCardOne">
                     <div id="CardOneLeft">
@@ -90,7 +87,12 @@ export default {
 /* SECTION: Content */
 #gameInfoTitle {
     color: whitesmoke;
-    font-size: 40px;
+    font-size: 65px;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2vh;
 }
 
 /* game card grid */

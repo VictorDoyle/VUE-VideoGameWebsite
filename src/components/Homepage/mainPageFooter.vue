@@ -2,6 +2,10 @@
     <footer id="mainpageFooter">
         <div class="footerContent">
             <div id="footerLeft">
+                <router-link to="/" class="footerNavLinks">UBISOFT</router-link> 
+                <router-link to="/" class="footerNavLinks">HOME</router-link> 
+                <router-link to="/news" class="footerNavLinks">NEWS</router-link>
+                <router-link to="/game-info" class="footerNavLinks">GAME INFO</router-link>
             </div>
 
             <div id="footerRight">
@@ -48,11 +52,31 @@ export default {
 
 #footerLeft {
     grid-area: footerLeft;
+    position: relative;
 }
+
+.footerNavLinks {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 25px;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 10vh;
+    width: 100%;
+    display: block;
+    width: 150px;
+}
+
+.footerNavLinks:hover {
+    color: grey;
+    transition: all .3s ease;
+}
+
 
 #footerRight {
     grid-area: footerRight;
     float: right;
+    margin-top: 35px;
 }
 
 
