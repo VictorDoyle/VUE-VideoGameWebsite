@@ -3,9 +3,10 @@
         <h1 id="contentHeroTitle"> NEW CHARACTERS </h1>
        <div class="mainCharactersGrid">
            <div id="leftCharacter">
-               <h4> Play Against Fierce New Enemies</h4>
-               <div class="characterTextLink">
-                   <h3> DISCOVER THE STORY </h3>
+               <div class="characterTextBio"> 
+               <h2> WORLD AND STORY</h2>
+                <p>Discover the diverse open world of Auroa and the deadly Wolves that have made it their home. </p>
+                <h3> DISCOVER THE STORY </h3>
                </div>
                <div id="leftCharImage">
                </div>
@@ -13,17 +14,20 @@
 
            </div>
             <div id="midCharacter">
-                <h4> Play Against Fierce New Enemies</h4>
-                <div class="characterTextLink">
+                <div class="characterTextBio"> 
+                    <h2> GAMEPLAY FEATURES</h2>
+                    <p>Explore the many features and abilities you'll have at your disposal. </p>
+                    <br>
                     <h3> SEE THE GAME DETAILS </h3>
-                </div>
+               </div>
                 <div id="midCharImage">
                 </div>
 
            </div>
             <div id="rightCharacter">
-                <h4> Play Against Fierce New Enemies</h4>
-                <div class="characterTextLink">
+                <div class="characterTextBio"> 
+                    <h2> GAME MODES</h2>
+                    <p>Play your way with solo, co-op, and multiplayer modes in an ever evolving world.</p>
                     <h3> LEARN ABOUT THE NEW MODES </h3>
                 </div>
                 <div id="rightCharImage">
@@ -141,17 +145,18 @@ export default {
 
 /* link to showcase info on character cards */
 
-.characterTextLink {
-    color:#8a8c4a;
+.characterTextBio {
     position: absolute;
-    bottom: 5px;
-    left: 0;
-    right: 0;
-    height: 70px;
+    bottom: 0;
+    background-color: black;
+    height: 130px;
+    overflow: hidden; 
 }
 
-/* on hover show information hidden behind characterTextLink with overflow hidden */
-
+.characterTextBio:hover { 
+    height: 200px;
+    transition: all .5s ease;
+}
 
 
 </style>
