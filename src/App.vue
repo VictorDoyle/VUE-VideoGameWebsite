@@ -24,6 +24,7 @@
 
 body {
   margin: 0 !important; 
+  background:url("./assets/mainBackgroundImage.jpeg") center 0 repeat-y,#04253c;
 }
 
 #websiteLogo {
