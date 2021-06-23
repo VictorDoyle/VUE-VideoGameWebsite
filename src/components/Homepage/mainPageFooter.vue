@@ -49,6 +49,11 @@ export default {
     grid-area: footerRight;
 }
 
+.socialLinkLogo:hover {
+    width: 55px;
+    transition: all .3s ease;
+}
+
 
 #footerLeft {
     grid-area: footerLeft;

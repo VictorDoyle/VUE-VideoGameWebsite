@@ -57,6 +57,12 @@ body {
   margin-right: 40px;
 }
 
+#main-nav a:hover {
+  background-color:antiquewhite;
+  height: 300px;
+  width: 100%;
+}
+
 #main-nav a.router-link-exact-active {
   /* TODO: change color and add animation */
   color: #8a8c4a
