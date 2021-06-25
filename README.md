@@ -4,9 +4,11 @@ This project is a Website Built To Show Apps & Video Games Made in Vue 3. The de
 
 Original Website: https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint
 
-Quick View Of The Landing Page:
+#### Quick View Of The Landing Page:
 ![Image of Project LandingPage](https://github.com/VictorDoyle/VUE-VideoGameWebsite/blob/master/src/assets/landingPageVueProject.png?raw=true)
 
+#### Quick View Of 'About Game' Page:
+![Image of Project LandingPage](vue-videogame-website/videogame-website/src/assets/aboutGamePage.png)
 ! Copyright Notice ! 
 All Images and assets used in this project are property of Ubisoft. I have used them for Educational purposes only.
 
